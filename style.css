@@ -1,0 +1,81 @@
+.container-fluid-nav div {
+  justify-content: space-around;
+}
+
+.hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("https://i.shgcdn.com/dac202e2-f049-4e41-b615-bc9511eba9e5/-/format/auto/-/preview/3000x3000/-/quality/lighter/");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  margin-top: 0;
+}
+
+.overlay-img {
+  position: absolute;
+  display: flex;
+  border-style: outset;
+  border-radius: 50%;
+  height: 100px;
+  width: auto;
+  margin: 17% 61%;
+}
+
+.overlay-text {
+  position: absolute;
+  text-align: center;
+  margin: 10% 0 0 55%;
+}
+
+/* .carousel-item {
+max-height: auto;
+} */
+
+#skills-section {
+  background-color: lightslategray;
+}
+
+#mission-section {
+  background-color: lightslategray;
+}
+
+#inspiration-section {
+  background-color: lightslategray;
+}
+
+#contact-section {
+  background-color: lightslategray;
+}
+
+.inspiration-hr {
+  margin: -16px;
+  padding: 0;
+}
+
+.inspiration-hr hr {
+  height: 3px;
+  color: black;
+}
+
+.skills-hr {
+  margin: -16px;
+  padding: 0;
+}
+
+.skills-hr hr {
+  height: 3px;
+  color: black;
+}
+
+#footer-section {
+  border: solid;
+  background-color: black;
+  height: 70px;
+}
+
+#footer-section h3 {
+  color: white;
+  margin-top: 15px;
+}
